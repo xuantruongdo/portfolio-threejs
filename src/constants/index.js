@@ -21,6 +21,7 @@ import {
   shopify,
   carrent,
   freelancer,
+  avada_logo,
   jobit,
   tripguide,
   threejs,
@@ -197,14 +198,13 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Full stack Developer",
+    title: "NodeJS Intern",
     company_name: "Freelancer",
-    icon: freelancer,
+    icon: avada_logo,
     iconBg: "#E6DEDD",
-    date: "August 2023 - Present",
+    date: "December 2023 - Present",
     points: [
-      "Designing website interface and database.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Use KoaJS and ReactJS on the Shopify platform.",
     ],
   },
 ];

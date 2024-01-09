@@ -32,6 +32,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import freelancer from "./company/freelancer.webp";
+import avada_logo from './company/avada_logo.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -72,6 +73,7 @@ export {
   starbucks,
   tesla,
   freelancer,
+  avada_logo,
   carrent,
   jobit,
   tripguide,
