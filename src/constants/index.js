@@ -199,7 +199,7 @@ const experiences = [
   // },
   {
     title: "NodeJS Intern",
-    company_name: "Freelancer",
+    company_name: "Avada Group",
     icon: avada_logo,
     iconBg: "#E6DEDD",
     date: "December 2023 - Present",
