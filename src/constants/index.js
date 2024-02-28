@@ -1,37 +1,22 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  freelancer,
   avada_logo,
-  jobit,
-  tripguide,
-  threejs,
   bootstrap,
   mui,
   antd,
   nest,
   next,
   mysql,
-  facenet,
+  vietsocial,
   itviec,
 } from "../assets";
 
@@ -202,7 +187,7 @@ const experiences = [
     company_name: "Avada Group",
     icon: avada_logo,
     iconBg: "#E6DEDD",
-    date: "December 2023 - Present",
+    date: "December 2023 - February 2024",
     points: [
       "Use KoaJS and ReactJS on the Shopify platform.",
     ],
@@ -261,7 +246,7 @@ const projects = [
 
     ],
     image: itviec,
-    source_code_link: "https://github.com/xuantruongdo/frontend-nestjs-project",
+    link: "https://truongdo-itviec-frontend.vercel.app/",
   },
   {
     name: "Social Media Website",
@@ -269,11 +254,11 @@ const projects = [
       "A social networking website inspired by Facebook.",
     tags: [
       {
-        name: "next",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mui",
+        name: "antd",
         color: "blue-text-gradient",
       },
       {
@@ -289,8 +274,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: facenet,
-    source_code_link: "https://github.com/xuantruongdo/facebook-app-frontend",
+    image: vietsocial,
+    link: "https://vietsocial.vercel.app/",
   },
 ];
 

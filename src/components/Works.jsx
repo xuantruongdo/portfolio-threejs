@@ -4,7 +4,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, staggerContainer, textVariant } from "../utils/motion";
 import { styles } from "../style";
-import { github } from "../assets";
+import { github, link_icon } from "../assets";
 
 const ProjectCard = ({
   index,
@@ -12,7 +12,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
+  link,
 }) => {
   return (
     <Tilt
@@ -31,11 +31,11 @@ const ProjectCard = ({
         />
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
-            onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            onClick={() => window.open(link, "_blank")}
+            className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img
-              src={github}
+              src={link_icon}
               alt="github"
               className="w-1/2 h-1/2 object-contain"
             />

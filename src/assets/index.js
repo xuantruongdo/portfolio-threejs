@@ -37,8 +37,9 @@ import avada_logo from './company/avada_logo.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import facenet from "./facenet.png";
+import vietsocial from "./vietsocial.png";
 import itviec from "./itviec.png";
+import link_icon from "./link_icon.png";
 
 export {
   logo,
@@ -77,6 +78,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  facenet,
-  itviec
+  vietsocial,
+  itviec,
+  link_icon
 };
